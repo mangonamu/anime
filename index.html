@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>망고의 애니추천</title>
+	<style type="text/css">
+		*{  margin:0 auto; padding:0;
+			list-style-type:none;			
+			text-align:center;
+		}
+		
+		body{position:relative; height:700px; width:1000px; background-color:#fff;}
+			
+			h1{padding-top:30px;}
+
+			<!--/*span{position:absolute; top:100px; right:100px;}*/-->
+		
+		section{position:relative; top:0; left:0;}
+			.main{float:left;}
+				li{position:absolute; height:300px; width:500px;}
+					li img{height:300px; width:500px;}
+					li.a{top:0; left:0;}
+					li.b{top:0; left:500px;}
+					li.c{top:300px; left:0;}
+					li.d{top:300px; left:500px;}		
+	</style>
+</head>
+<body>
+	<header>
+		<div id="top">
+			<h1><a href="index.html"><img src="img/logo.png" alt="로고"></a></h1>
+			<!--<span><a href="page/notice.html"><img src="img/notice.png" alt="읽어주세요"></a></span>-->
+		</div>
+	</header>
+	
+	<section>
+		<ul class="main">
+			<li class="a"><a href="page/sport.html"><img src="img/sport.png"></a></li>
+			<li class="b"><a href="page/romance.html"><img src="img/romance.png"></a></li>	
+			<li class="c"><a href="page/action.html"><img src="img/action.png"></a></li>
+			<li class="d"><a href="page/comedy.html"><img src="img/comedy.png"></a></li>	
+		</ul>		
+	</section>
+</body>
+</html>
